@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&display=swap');
+
+@theme {
+  /* Colors */
+  --color-void: #0A0908;
+  --color-charcoal: #16140F;
+  --color-gold-light: #F1D48A;
+  --color-gold-dark: #C9A24C;
+  --color-gold-muted: #B08D4F;
+  --color-ivory: #F4EFE3;
+  --color-smoke: #8C8578;
+
+  /* Fonts */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-wordmark: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+/* Gold gradient utility */
+.gold-gradient {
+  background: linear-gradient(135deg, var(--color-gold-dark), var(--color-gold-light));
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, var(--color-gold-dark), var(--color-gold-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Podium glow effect */
+.podium-glow {
+  background: radial-gradient(ellipse 60% 40% at 50% 80%, rgba(201, 162, 76, 0.25) 0%, transparent 70%);
+}
+
+/* Scroll reveal animation */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.4s ease forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .hover\:lift:hover {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px solid var(--color-gold-dark);
+  outline-offset: 2px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-void);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold-muted);
+  border-radius: 3px;
+}
+
