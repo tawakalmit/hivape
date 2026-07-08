@@ -2,12 +2,7 @@ import type { SupabaseClient, Session } from '@supabase/supabase-js';
 
 declare global {
 	namespace App {
-		interface Platform {
-			env: Env;
-			ctx: ExecutionContext;
-			caches: CacheStorage;
-			cf?: IncomingRequestCfProperties;
-		}
+		// No platform-specific types needed for Vercel
 
 		interface Locals {
 			supabase: SupabaseClient;
