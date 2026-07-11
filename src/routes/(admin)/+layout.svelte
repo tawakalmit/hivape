@@ -7,7 +7,7 @@
 	<title>Admin — HiVape Store</title>
 </svelte:head>
 
-<div class="min-h-screen bg-gray-50 flex">
+<div class="min-h-screen bg-gray-50 flex text-gray-900">
 	{#if data.session}
 		<!-- Sidebar -->
 		<aside class="w-56 bg-white border-r border-gray-200 flex flex-col shrink-0">

@@ -47,7 +47,7 @@
 			type="search"
 			bind:value={searchQuery}
 			placeholder="Cari produk atau kategori..."
-			class="w-full max-w-sm px-3 py-2 rounded-lg border border-gray-300 text-sm focus:outline-none focus:border-yellow-500"
+			class="w-full max-w-sm px-3 py-2 rounded-lg border border-gray-300 text-sm focus:outline-none focus:border-gray-900"
 		/>
 	</div>
 
@@ -114,7 +114,7 @@
 								<div class="flex items-center justify-end gap-2">
 									<a
 										href="/admin/produk/{product.id}"
-										class="px-3 py-1.5 rounded-lg text-xs font-medium text-gray-600 border border-gray-200 hover:border-yellow-400 hover:text-yellow-700 transition-colors"
+										class="px-3 py-1.5 rounded-lg text-xs font-medium text-gray-600 border border-gray-200 hover:border-gray-400 hover:text-gray-900 transition-colors"
 									>
 										Edit
 									</a>

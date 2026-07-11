@@ -35,7 +35,7 @@
 						type="text"
 						bind:value={newName}
 						required
-						class="px-3 py-2 rounded-lg border border-gray-300 text-sm focus:outline-none focus:border-yellow-500"
+						class="px-3 py-2 rounded-lg border border-gray-300 text-sm focus:outline-none focus:border-gray-900"
 						placeholder="Liquid Saltnic"
 					/>
 				</div>

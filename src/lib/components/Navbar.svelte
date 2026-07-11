@@ -33,7 +33,7 @@
 		</a>
 
 		<!-- Desktop nav links -->
-		<ul class="hidden md:flex items-center gap-1" role="list">
+		<!-- <ul class="hidden md:flex items-center gap-1" role="list">
 			{#each categories as cat}
 				{@const isActive = $page.url.pathname.startsWith(cat.href)}
 				<li>
@@ -49,7 +49,7 @@
 					</a>
 				</li>
 			{/each}
-		</ul>
+		</ul> -->
 
 		<!-- Right actions -->
 		<div class="flex items-center gap-2">

@@ -1,8 +1,8 @@
 <script lang="ts">
 	import ProductForm from '$lib/components/ProductForm.svelte';
-	import type { PageData } from './$types';
+	import type { PageData, ActionData } from './$types';
 
-	let { data }: { data: PageData } = $props();
+	let { data, form }: { data: PageData; form: ActionData } = $props();
 </script>
 
 <div class="p-8">
@@ -14,5 +14,11 @@
 		<h1 class="text-2xl font-bold text-gray-900">Tambah Produk</h1>
 	</div>
 
-	<ProductForm categories={data.categories} action="?/default" />
+	{#if form?.error}
+		<div class="mb-4 p-4 rounded-lg bg-red-50 border border-red-200 text-sm text-red-700">
+			<strong>Error:</strong> {form.error}
+		</div>
+	{/if}
+
+	<ProductForm categories={data.categories} action="?/simpan" />
 </div>

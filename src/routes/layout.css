@@ -58,8 +58,8 @@
   }
 }
 
-/* Focus ring */
-:focus-visible {
+/* Focus ring — hanya untuk halaman publik (dark theme) */
+:not(.admin-layout) :focus-visible {
   outline: 2px solid var(--color-gold-dark);
   outline-offset: 2px;
 }

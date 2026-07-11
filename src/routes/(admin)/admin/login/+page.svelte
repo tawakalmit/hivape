@@ -30,7 +30,7 @@
 					type="email"
 					required
 					autocomplete="email"
-					class="px-3 py-2 rounded-lg border border-gray-300 text-sm focus:outline-none focus:border-yellow-500 focus:ring-1 focus:ring-yellow-500"
+					class="px-3 py-2 rounded-lg border border-gray-300 text-sm focus:outline-none focus:border-gray-900 focus:ring-1 focus:ring-gray-900"
 					placeholder="admin@hivape.id"
 				/>
 			</div>
@@ -43,7 +43,7 @@
 					type="password"
 					required
 					autocomplete="current-password"
-					class="px-3 py-2 rounded-lg border border-gray-300 text-sm focus:outline-none focus:border-yellow-500 focus:ring-1 focus:ring-yellow-500"
+					class="px-3 py-2 rounded-lg border border-gray-300 text-sm focus:outline-none focus:border-gray-900 focus:ring-1 focus:ring-gray-900"
 				/>
 			</div>
 

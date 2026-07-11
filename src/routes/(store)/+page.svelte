@@ -43,7 +43,7 @@
 				</span>
 			</h1>
 			<p class="text-[#8C8578] text-lg leading-relaxed max-w-md">
-				Liquid saltnic, freebase, pod system, device, coil & accessories — semua original, semua pilihan terbaik.
+				Liquid saltnic, freebase, pod system, device, coil & accessories semua original, semua pilihan terbaik.
 			</p>
 			<div class="flex flex-wrap gap-3">
 				<a
@@ -56,17 +56,17 @@
 						<line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
 					</svg>
 				</a>
-				<a
+				<!-- <a
 					href="/kategori/liquid-saltnic"
 					class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-[Space_Grotesk,sans-serif] text-sm font-semibold tracking-widest uppercase text-[#F4EFE3] border border-[#B08D4F]/40 hover:border-[#B08D4F] transition-colors"
 				>
 					Saltnic Terbaru
-				</a>
+				</a> -->
 			</div>
 		</div>
 
 		<!-- Hero product podium visual -->
-		<div class="relative flex items-center justify-center" aria-hidden="true">
+		<div class="relative flex items-center justify-center invisible" aria-hidden="true">
 			<div class="relative w-72 h-80 flex items-end justify-center">
 				<!-- Gold ring glow -->
 				<div
@@ -96,7 +96,7 @@
 <TrustBadges />
 
 <!-- KATEGORI GRID -->
-{#if data.categories.length > 0}
+<!-- {#if data.categories.length > 0}
 	<section class="py-16 max-w-7xl mx-auto px-4 sm:px-6" aria-labelledby="kategori-heading">
 		<div class="flex flex-col gap-2 mb-8">
 			<p class="text-xs font-[Space_Grotesk,sans-serif] tracking-[0.3em] uppercase text-[#B08D4F]">Browse</p>
@@ -124,7 +124,7 @@
 	</section>
 
 	<SectionDivider />
-{/if}
+{/if} -->
 
 <!-- PRODUK TERBARU -->
 <section class="py-16 max-w-7xl mx-auto px-4 sm:px-6" aria-labelledby="produk-heading">
